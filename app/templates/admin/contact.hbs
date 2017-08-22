@@ -1,0 +1,21 @@
+<!-- app/templates/admin/contact.hbs -->
+
+<h1>Recieved Messages</h1>
+
+<table class="table table-bordered table-striped">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>E-mail</th>
+      <th>Message</th>
+    </tr>
+  </thead>
+  <tbody>
+  {{#each model as |contact|}}
+    <tr>
+      <th>{{message.name}}{{message.email}}</th>
+      <td>{{message.message}}</td>
+    </tr>
+  {{/each}}
+  </tbody>
+</table>
