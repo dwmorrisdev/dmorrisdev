@@ -4,6 +4,12 @@ body {
   padding-top: 20px;
 
 }
+.makeItWhite, {
+  :hover, :visited{
+    color: white;
+  }
+  color: white;
+}
 
 .ember-application{
   background:  url('/assets/images/clouds.jpg');
