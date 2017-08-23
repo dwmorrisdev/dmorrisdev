@@ -8,3 +8,20 @@ body {
 .ember-application{
   background:  url('/assets/images/clouds.jpg');
 }
+
+.title{
+  color: #313131;
+  font-size: 2em;
+  padding-top: 5px;
+}
+
+img{
+  border: 3px #313131 solid;
+  -webkit-transition: border .5s; /* Safari */
+  transition: border .5s;
+  border-radius: 10px;
+}
+
+img:hover{
+  border: 5px #EAEAEA solid;
+}
