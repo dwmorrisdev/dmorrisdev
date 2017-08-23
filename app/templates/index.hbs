@@ -1,5 +1,7 @@
 
-
+{{#if responseMessage}}
+  <div class="alert alert-success">{{responseMessage}}</div>
+{{/if}}
 <div class="jumbotron text-center">
   <h1>Dustin Morris</h1> <h2>Web Developer</h2>
   <h3>New Site, Coming Soon</h3>
@@ -18,11 +20,7 @@
     </div>
   </div>
 
-  {{#if responseMessage}}
-    <div class="alert alert-success">{{responseMessage}}</div>
-  {{/if}}
-
   <br/><br/>
 
-  <h4>Get my resume <a target="_blank" href="https://docs.google.com/document/d/17z1FrwDAZje7pv_2VyAf8d1xOzTV2n4Q8UjBT30EC4c/edit?usp=sharing">here</a></h4>
+  <h3>Get my resume <a target="_blank" href="https://docs.google.com/document/d/17z1FrwDAZje7pv_2VyAf8d1xOzTV2n4Q8UjBT30EC4c/edit?usp=sharing">here</a></h3>
 </div>

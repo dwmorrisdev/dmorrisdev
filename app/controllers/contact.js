@@ -27,7 +27,7 @@ export default Ember.Controller.extend({
         message: mes
       });
 
-      newMessage.save().then((response) => {
+      newMessage.save().then((responseMessage) => {
         this.set('responseMessage', `Thank you, I just got your message!`);
         this.set('guestName', '');
         this.set('guestEmail', '');

@@ -1,6 +1,10 @@
-<h3>Give me a shout and lets talk about your next project.</h3>
+{{#if responseMessage}}
+  <div class="alert alert-success">{{responseMessage}}</div>
+{{/if}}
 
-<form>
+<h3 class="buffer">Give me a shout and lets talk about your next project.</h3>
+
+<form class="shrinkIt">
   <div class="form-group">
     <label for="guestName">Name</label>
     {{input type="text" value=guestName class="form-control" placeholder="John Jacob Jingleheimerschmidt"}}
@@ -16,7 +20,3 @@
   </div>
   <button type="submit" class="btn btn-default" {{action 'sendMessage'}} disabled={{isDisabled}}>Submit</button>
 </form>
-
-{{#if responseMessage}}
-  <div class="alert alert-success">{{responseMessage}}</div>
-{{/if}}

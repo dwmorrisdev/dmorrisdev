@@ -15,6 +15,13 @@ body {
   background:  url('/assets/images/clouds.jpg');
 }
 
+.jumbotron{
+  margin-top: 150px;
+  background: url('/assets/images/working.jpg');
+  background-size: cover;
+  color: #e0ecff;
+}
+
 .title{
   color: #313131;
   font-size: 2em;
@@ -30,4 +37,46 @@ img{
 
 img:hover{
   border: 5px #EAEAEA solid;
+}
+
+ul {
+  overflow: auto;
+  list-style-type: none;
+}
+
+.stuff{
+  margin-top: 7px;
+li {
+  height: 25px;
+  float: left;
+  margin-right: 0px;
+  border-right: 1px solid #353c47;
+  padding: 0 20px;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  text-decoration: none;
+  color: #242424;
+  text-transform: uppercase;
+  -webkit-transition: all 0.5s ease;
+}
+
+li a:hover {
+  color: #497dd1;
+}
+}
+
+.shrinkIt{
+  width: 75%;
+}
+
+form{
+  margin-top: 30px;
+}
+.buffer{
+  margin-top: 150px;
 }
