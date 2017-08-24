@@ -16,7 +16,7 @@ export default Ember.Controller.extend({
   }),
 
   actions: {
-    sendMessage () {
+    saveMessage () {
       const name = this.get('guestName');
       const email = this.get('guestEmail');
       const mes = this.get('guestMessage');
@@ -27,7 +27,7 @@ export default Ember.Controller.extend({
         message: mes
       });
 
-      newMessage.save().then((responseMessage) => {
+      newMessage.save().then( (res) => {
         this.set('responseMessage', `Thank you, I just got your message!`);
         this.set('guestName', '');
         this.set('guestEmail', '');
