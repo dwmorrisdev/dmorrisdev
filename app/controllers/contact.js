@@ -20,15 +20,17 @@ export default Ember.Controller.extend({
       const name = this.get('guestName');
       const email = this.get('guestEmail');
       const mes = this.get('guestMessage');
+      // console.log("inputs: " + name + email + mes);
 
-      const newMessage = this.store.createRecord('message', {
+      const newMessage = this.store.createRecord('contact', {
         name: name,
         email: email,
         message: mes
       });
+      console.log(newMessage);
 
       newMessage.save().then( (res) => {
-        this.set('responseMessage', `Thank you, I just got your message!`);
+        this.set('responseMessage', `Thank you ${res.get('name')}, I just got your message!`);
         this.set('guestName', '');
         this.set('guestEmail', '');
         this.set('guestMessage', '');
