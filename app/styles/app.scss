@@ -36,7 +36,7 @@ img{
 }
 
 img:hover{
-  border: 5px #EAEAEA solid;
+  border: 5px rgba(235, 244, 253, 0.7) solid;
 }
 
 ul {
@@ -66,7 +66,7 @@ li a {
 }
 
 li a:hover {
-  color: #497dd1;
+  color: rgba(235, 244, 253, 0.7);
 }
 }
 
@@ -80,4 +80,16 @@ form{
 .buffer{
   margin-top: 150px;
   margin-left: 125px;
+}
+
+.caption{
+  background: rgba(235, 244, 253, 0.3);
+  border-radius: 7px;
+  margin-top:5px;
+  padding:4px;
+}
+
+.formCont{
+  width: 75%;
+  margin: auto;
 }
