@@ -1,4 +1,6 @@
 @import "bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Bangers|Cabin+Sketch|Linden+Hill|Permanent+Marker');
+
 
 body {
   padding-top: 20px;
@@ -16,10 +18,92 @@ body {
 }
 
 .jumbotron{
-  margin-top: 150px;
-  background: url('/assets/images/working.jpg');
+  // font-family: 'Amatic SC', cursive;
+  // font-family: 'Rokkitt', serif;
+  // font-family: 'Permanent Marker', cursive;
+  // font-family: 'Bitter', serif;
+  // font-family: 'Cabin Sketch', cursive;
+  // font-family: 'Bangers', cursive;
+  margin-top: 50px;
+  width: 150%;
+  margin-left: -300px;
+  background: url('/assets/images/mountain1.jpg');
   background-size: cover;
-  color: #e0ecff;
+  padding-bottom: 220px;
+  // color: #e0ecff;
+  color: #1C2833;
+  border: #1C2833 2px solid;
+
+  h1{
+    padding-top: 70px;
+    font-family: 'Cabin Sketch', serif;
+    font-size: 600%;
+  }
+  h2{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 300%;
+  }
+  h4{
+    font-family: 'Bangers', cursive;
+    padding-top: 50px;
+    font-size: 200%;
+  }
+
+}
+.navbar{
+  font-family: 'Cabin Sketch', serif;
+  font-size: 150%;
+}
+.container-fluid{
+  h2{
+    font-family: 'Permanent Marker', cursive;
+  }
+  .title{
+  font-family: 'Cabin Sketch', serif;
+  }
+  .caption{
+  font-family: 'Linden Hill', serif;
+  }
+
+}
+.about{
+  h1{
+    font-family: 'Permanent Marker', cursive;
+  }
+  h3{
+    font-family: 'Permanent Marker', cursive;
+  }
+  h4{
+    font-family: 'Cabin Sketch', serif;
+    font-size: 200%;
+  }
+  p{
+    font-family: 'Linden Hill', serif;
+    font-size: 150%;
+  }
+  a{
+      font-family: 'Permanent Marker', cursive;
+  }
+}
+.contact{
+  h3{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 150%;
+  }
+  label{
+    font-size: 150%;
+    font-family: 'Cabin Sketch', serif;
+  }
+  p{
+    font-family: 'Linden Hill', serif;
+    font-size: 150%;
+  }
+  button{
+    font-family: 'Linden Hill', serif;
+    font-size: 200%;
+    padding: 2% 4% 2% 4%;
+  }
+
 }
 
 .title{

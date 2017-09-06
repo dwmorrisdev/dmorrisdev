@@ -35,6 +35,10 @@ export default Ember.Controller.extend({
         this.set('guestEmail', '');
         this.set('guestMessage', '');
       });
+    },
+    deleteMessage (){
+      console.log("deleteMessage fired!");
+      // remove the message item
     }
   }
 });
